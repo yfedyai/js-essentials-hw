@@ -73,7 +73,7 @@ console.log(firstAndLastToUpper('abcd'))
 
 // checking for substring
 function cursorCheck(str) {
-    if (str.indexOf('ironman') !== -1 || str.indexOf('ostap') !== -1 || str.indexOf('cursor') !== -1) {
+    if (str.toLowerCase().indexOf('ironman') !== -1 || str.toLowerCase().indexOf('ostap') !== -1 || str.toLowerCase().indexOf('cursor') !== -1) {
         return true;
     }
     else {
@@ -82,7 +82,7 @@ function cursorCheck(str) {
 }
 
 console.log(cursorCheck('hi, i asdsd asds ost'))
-console.log(cursorCheck('hi, i am cursor '))
+console.log(cursorCheck('hi, i  Cursor'))
 
 
 // 
